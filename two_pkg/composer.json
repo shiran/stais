@@ -1,0 +1,17 @@
+{
+	"type" : "project",
+	"name" : "spaphp/two_pkg",
+	"require" : {
+	},
+	"autoload" : {
+		"psr-4" : {"ad_service\\" : "src"}
+	},
+	"autoload-dev" : {
+		"psr-4"  : {"ad_service\\" : "test"}
+	},
+	"extra" : {
+		"branch-alias" : {
+			"dev-trunk" : "1.0-dev"
+		}
+	}
+}

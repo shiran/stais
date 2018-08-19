@@ -1,0 +1,27 @@
+{
+	"type" : "project",
+	"name" : "spaphp/pkg_list",
+	"require" : {
+	},
+	"autoload" : {
+		"psr-4" : {"ad_service\\" : "src"}
+	},
+	"autoload-dev" : {
+		"psr-4"  : {"ad_service\\" : "test"}
+	},
+    "repositories" :[
+        {
+             "type": "path",
+             "url" : "one_pkg"
+        },
+        {
+             "type": "path",
+             "url" : "two_pkg"
+        }
+    ],
+	"extra" : {
+		"branch-alias" : {
+			"dev-trunk" : "1.0-dev"
+		}
+	}
+}
